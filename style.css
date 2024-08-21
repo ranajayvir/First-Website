@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.logo{
+    height: 8vh;
+    width: 30%;
+    margin-left: 5px;
+}
+.links{
+    margin-right: 5px;
+}
+.link{
+    text-decoration: none;
+    margin: 5px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    background-color: #E7D7EB;
+    font-size: 30px;
+    height: 90vh;
+    
+}
+.details{
+    margin: 0 60px;
+    font-size: 20px;
+}
+.para{
+    margin-top: 20px;
+}
+.button{
+    background-color: aqua;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.laptop{
+    margin-right: 20px;
+}
+.About{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#About{
+    background-color: #CCECBF;
+    height: 40vh;
+}
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.aboutimage{
+    height: 30vh;
+    width: 40%;
+    margin-right: 10px;
+}
+.para{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.Discord{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Discord{
+    background-color: aquamarine;
+    height: 40vh;
+}
+.discordimage{
+    height: 30vh;
+    width: 40%;
+    margin-left: 10px;
+
+}
+.parad{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.Contact{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #9abfc0;
+}
+.email{
+    width: 30%;
+}
+.message{
+    width: 30%;
+    height: 20vh;
+}
+.contactcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail{
+    margin-right: 180px;
+}
+.msg{
+    margin-right: 165px;
+}
+.btn{
+    background-color: aqua;
+    height: 25px;
+    width: 30%;
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+.Logo{
+    height: 9vh;
+    width: 40%;
+    padding-top: 10px;
+}
+.Link{
+    text-decoration: none;
+}
